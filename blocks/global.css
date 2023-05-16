@@ -12,6 +12,11 @@ body {
   line-height: 20px;
 }
 
+.content {
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (min-width: 1600px) {
   .page {
     margin: 0 auto;
