@@ -34,14 +34,10 @@
   width: 100%;
   line-height: 30px;
   padding: 20px;
-}
-
-.form__input, .form__input::-webkit-input-placeholder, .form__input::-moz-placeholder, .form__input::-ms-input-placeholder {
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 30px;
   color: #838383;
 }
 
