@@ -34,13 +34,11 @@
 }
 
 .recipes__videos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 40px;
   margin: 80px auto 215px;
-  width: 1000px;
-  max-height: 327px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
 .recipes__iframe {
@@ -54,11 +52,8 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  width: 480px;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
