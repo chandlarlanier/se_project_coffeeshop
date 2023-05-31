@@ -15,3 +15,6 @@ This is the second project of the software engineering program at Practicum. It 
 
 - Enhance the functionality of the landing page by incorporating a user-friendly online ordering form, allowing customers to conveniently place their orders directly from the website
 - Expand the platform to include a user-generated content feature, enabling users to submit and explore other users' favorite coffee recipes
+
+## How to View:
+View on GitHub Pages at [this link](https://chandlarlanier.github.io/se_project_coffeeshop/).
