@@ -1,4 +1,6 @@
-.nav {
+/* Original start */
+
+/* .nav {
   margin: 0;
   padding: 30px 80px 0 30px;
   display: flex;
@@ -26,4 +28,48 @@
 
 .nav__link:hover {
   color: #2f80ed;
+} */
+
+/* Original end */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  justify-self: flex-start;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  text-wrap: nowrap;
+  font-size: 0.7rem;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+@media screen and (min-width: 500px) {
+  .nav__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav__links {
+    gap: 1rem;
+    margin-right: 2.5rem;
+  }
+
+  .nav__link {
+    font-size: 1.3rem;
+  }
 }

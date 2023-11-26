@@ -1,4 +1,6 @@
-.page {
+/* Original start */
+
+/* .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
@@ -11,4 +13,17 @@
   .page {
     margin: 0 auto;
   }
+} */
+
+/* Original end */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  font-family: 'Inter', Arial, sans-serif;
 }

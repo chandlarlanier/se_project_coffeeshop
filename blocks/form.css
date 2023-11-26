@@ -1,4 +1,6 @@
-.form {
+/* Original start */
+
+/* .form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,4 +76,77 @@
   border-radius: 2px;
   height: 20px;
   width: 20px;
+} */
+
+/* Original end */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  width: 100%;
+}
+
+.form__label {
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 90%;
+}
+
+.form__input {
+  border-radius: 4px;
+  border: 1px solid #838383;
+  width: 90%;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #838383;
+  margin: 0.5rem 0 1.6rem;
+  padding: 0.5rem;
+}
+
+.form__button {
+  border-radius: 4px;
+  opacity: 1;
+  background-color: #2f80ed;
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: opacity 200ms linear;
+  padding: 0.5rem;
+  width: 90%;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form__label[for="checkbox"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form__checkbox {
+  margin-right: 0.7rem;
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .form {
+    width: 20rem;
+  }
 }
