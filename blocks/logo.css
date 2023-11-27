@@ -8,13 +8,16 @@
 /* Original End */
 
 .logo {
-  width: 60px;
+  position: absolute;
+  top: 0;
+  left: -15px;
   height: 60px;
+  width: 60px;
 }
 
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
   .logo {
     height: 70px;
     width: 70px;
   }
-}
+} */

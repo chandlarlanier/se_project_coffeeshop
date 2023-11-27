@@ -75,7 +75,7 @@
   flex-grow: 1;
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .card {
     width: 25rem;
   }
@@ -83,4 +83,4 @@
   .card__title {
     margin-bottom: 1rem;
   }
-}
+} */

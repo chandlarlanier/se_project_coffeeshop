@@ -81,7 +81,7 @@
 /* original end */
 
 .footer {
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
@@ -98,7 +98,7 @@
   width: 60px;
   height: 40px;
   position: absolute;
-  top: -10px;
+  top: -9px;
   left:  0;
 }
 
@@ -128,7 +128,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.7rem;
   color: #fff;
   font-family: "Inter", Arial, sans-serif;
   font-size: 0.7rem;
@@ -143,6 +143,7 @@
   height: 12px;
   width: 12px;
   color: inherit;
+  margin-left: 1px;
 }
 
 .footer__copyright {
@@ -152,8 +153,8 @@
   font-size: 0.7rem;
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .footer {
     padding: 4rem 4rem 3rem;
   }
-}
+} */

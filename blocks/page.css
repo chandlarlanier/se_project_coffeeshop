@@ -23,7 +23,13 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+}
+
 .page {
   width: 100%;
   font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  min-width: 360px;
 }
