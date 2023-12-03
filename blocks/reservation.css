@@ -48,13 +48,24 @@
   font-size: 1.7rem;
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .reservation {
     background-image: url(../images/background_reservation.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 5rem 4rem;
+  }
+
+  .reservation__title {
+    font-size: 2rem;
+  }
+} */
+
+@media screen and (min-width: 600px) {
+  .reservation {
+    padding: 4rem 2.5rem;
+    min-height: 671px;
   }
 
   .reservation__title {

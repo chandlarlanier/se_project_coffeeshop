@@ -150,3 +150,9 @@
     width: 20rem;
   }
 } */
+
+@media screen and (min-width: 600px) {
+  .form {
+    width: 70%;
+  }
+}

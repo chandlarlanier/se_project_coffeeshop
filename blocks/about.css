@@ -151,3 +151,31 @@
     line-height: 1.5;
   }
 } */
+
+@media screen and (min-width: 600px) {
+  .about {
+    padding: 4rem 2.5rem;
+    min-height: 582px;
+  }
+
+  .about__circle {
+    height: 400px;
+    width: 400px;
+    top: -200px;
+    left: -200px;
+  }
+
+  .about__title {
+    font-size: 2rem;
+    width: 185px;
+  }
+
+  .about__paragraph {
+    font-size: 1.3rem;
+  }
+
+  .about__content {
+    width: 55%;
+    gap: 2.5rem;
+  }
+}

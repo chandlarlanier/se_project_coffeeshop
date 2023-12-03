@@ -11,3 +11,29 @@
 @import url('../blocks/card.css');
 @import url('../blocks/about.css');
 @import url('../blocks/footer.css');
+
+/* Mobile */
+/* 360 * 640
+360 * 760
+360 * 780
+375 * 667
+375 * 812
+414 * 896 */
+
+
+/* Tablet */
+/* 601 * 962
+768 * 1024
+800 * 1280
+810 * 1080
+flip horizontal
+962 * 601
+1280 * 800 */
+
+/* Desktop */
+/* 1024 * 768
+1280 * 720
+1366 * 768
+1440 * 900
+1536 * 864
+1920 * 1080 */

@@ -74,3 +74,17 @@
     font-size: 1.3rem;
   }
 } */
+
+@media screen and (min-width: 600px) {
+  .nav {
+    height: 126px;
+  }
+
+  .nav__links {
+    gap: 2rem;
+  }
+
+  .nav__link {
+    font-size: 1.2rem;
+  }
+}
