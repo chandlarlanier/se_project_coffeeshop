@@ -155,7 +155,7 @@
 @media screen and (min-width: 600px) {
   .about {
     padding: 4rem 2.5rem;
-    min-height: 582px;
+    min-height: 488px;
   }
 
   .about__circle {
