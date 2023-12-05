@@ -186,3 +186,22 @@
     font-size: 1.1rem;
   }
 }
+
+@media screen and (min-width: 850px) {
+  .recipes {
+    min-height: 498px;
+  }
+
+  .recipes__videos {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .recipe__video {
+    max-width: 350px;
+  }
+
+  .recipes__iframe {
+    height: 200px;
+  }
+}
