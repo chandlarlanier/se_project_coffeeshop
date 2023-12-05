@@ -328,3 +328,34 @@
     width: 140px;
   }
 }
+
+@media screen and (min-width: 850px) {
+  .header {
+    min-height: 0px;
+    max-height: 20000px;
+    background-color: #fff;
+    background-image: url(../images/background_header.svg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .header__main-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header__text {
+    width: 43%;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .header__image-container {
+    width: 50%;
+    border-radius: 100%;
+    overflow: hidden;
+    max-height: 500px;
+    max-width: 500px;
+  }
+}
