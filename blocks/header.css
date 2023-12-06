@@ -331,13 +331,13 @@
 
 @media screen and (min-width: 850px) {
   .header {
-    min-height: 0px;
+    min-height: 600px;
     max-height: 20000px;
     background-color: #fff;
     background-image: url(../images/background_header.svg);
     background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .header__main-content {
@@ -349,6 +349,8 @@
     width: 43%;
     justify-content: center;
     margin: 0;
+    gap: 40px;
+    margin-top: -25px;
   }
 
   .header__image-container {
