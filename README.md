@@ -1,6 +1,6 @@
 # Practicum Coffee Shop
 
-This is the second project of the software engineering program at Practicum. It focuses on creating a landing page for a library cafe. The page incorporates various front-end web development techniques and technologies, including Semantic HTML5, Flexbox, Positioning, Flat BEM, a custom form, CSS animations and transformations, and embedded YouTube videos using the YouTube API.
+This project focuses on creating a landing page for a library cafe. The page incorporates various front-end web development techniques and technologies, including Semantic HTML5, Flexbox, Positioning, Flat BEM, a custom form, CSS animations and transformations, and embedded YouTube videos using the YouTube API.
 
 ## Project features
 
